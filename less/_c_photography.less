@@ -1,0 +1,105 @@
+@import "bootstrap.less";
+
+body, html {
+	background: @white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  padding: 30px;
+}
+
+.photos {
+  padding-left: 300px;
+}
+
+.text {
+  padding: 120px 50px 0px;
+  width: 500px;
+  p {
+    text-indent: 2em;
+  }
+}
+
+.fatw ul {
+  width: 4300px;
+}
+
+.cuof ul {
+  width: 8450px;
+}
+
+.hitching ul, .tarot ul, .book ul, .about ul, .cuof ul, .fatw ul {
+  position: absolute;
+  li {
+    padding: none;
+    position: relative;
+    float: left;
+  }
+  img {
+    height: 500px;
+  }
+}
+
+.hitching ul {
+  width: 14100px;
+}
+
+.tarot ul {
+  width: 3800px;
+}
+
+.book ul {
+  width: 21850px;
+  #dresden, #mccarthy, #trapper, #whittier {
+    border-left: 1px solid rgb(139, 63, 41);
+  }
+}
+
+.slider {
+  margin-top: 100px;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  li {
+    padding: 10px;
+    position: relative;
+    img {
+      overflow: hidden;
+      float: left;
+    }
+  }
+}
+
+.footer-nav {
+  position: fixed;
+  padding-top: 50px;
+  text-align: right;
+  .title a {
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0px;
+  }
+  a {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    color: rgb(139, 63, 41);
+    text-shadow: none;
+    margin: 10px;
+    &:hover {
+      text-decoration: none;
+      color: rgb(139, 63, 41);
+    }
+  }
+
+}
